@@ -81,9 +81,9 @@
 //     U20_PLUS was not tested, as we do not have a printer to test. Print bed PID settings MUST be tuned for it.
 
 // Valid platformio.ini submodel values are U20_PLUS U20 U30 LK1 LK2 LK4
-
+#define U30
 // Valid platformio.ini touchscreens are TS_V11 TS_V12 TS_V19
-
+#define TS_V12
 // 2 - Select the screen controller type. Most common is ILI9341 - First option. If your screen remains white,
 //     Try the alternate setting - this should enable ST7789V or ILI9328. For other LCDs... code is needed
 //     with the proper boot sequence to be developped.
@@ -96,7 +96,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "tpruvot"// Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "fsteccanella"// Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -794,7 +794,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 98 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 415 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1157,8 +1157,8 @@
 // @section machine
 
 #if defined(U30) || defined(LK2) || defined(LK4)
-#define X_BED_SIZE 220
-#define Y_BED_SIZE 220
+#define X_BED_SIZE 235
+#define Y_BED_SIZE 235
 #define Z_MACHINE_MAX 250
 #endif
 
@@ -1752,7 +1752,7 @@
  *
  * Use CRC checks and retries on the SD communication.
  */
-//#define SD_CHECK_AND_RETRY
+#define SD_CHECK_AND_RETRY
 
 /**
  * LCD Menu Items
