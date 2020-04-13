@@ -1157,8 +1157,8 @@
 // @section machine
 
 #if defined(U30) || defined(LK2) || defined(LK4)
-#define X_BED_SIZE 235
-#define Y_BED_SIZE 235
+#define X_BED_SIZE 220
+#define Y_BED_SIZE 220
 #define Z_MACHINE_MAX 250
 #endif
 
