@@ -1,7 +1,7 @@
 # Configurations
 Pre-tested Configurations for Marlin Firmware
 
-## https://github.com/MarlinFirmware/Configurations/archive/release-2.0.5.zip
+## https://github.com/MarlinFirmware/Configurations/archive/2.0.5.3.zip
 
 Marlin Firmware is configured using two files:
 
