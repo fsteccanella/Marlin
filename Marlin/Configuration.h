@@ -81,9 +81,9 @@
 //     U20_PLUS was not tested, as we do not have a printer to test. Print bed PID settings MUST be tuned for it.
 
 // Valid platformio.ini submodel values are U20_PLUS U20 U30 LK1 LK2 LK4
-#define U30
+
 // Valid platformio.ini touchscreens are TS_V11 TS_V12 TS_V19
-#define TS_V12
+
 // 2 - Select the screen controller type. Most common is ILI9341 - First option. If your screen remains white,
 //     Try the alternate setting - this should enable ST7789V or ILI9328. For other LCDs... code is needed
 //     with the proper boot sequence to be developped.
