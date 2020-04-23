@@ -9,3 +9,4 @@ Currently has been tested in Malyan M200 (103CBT6), SKRmini (103RCT6), Chitu 3d 
 - xC000005
 - thisiskeithb
 - tpruvot
+- fsteccanella
